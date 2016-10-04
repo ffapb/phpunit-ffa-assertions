@@ -3,7 +3,6 @@
     "description": "ffa assertions for PHPUnit",
     "keywords": ["assertions","phpunit","tests"],
     "homepage": "http://github.com/shadiakiki1986/phpunit-ffa-assertions",
-    "license": "MIT",
     "authors": [
         {
             "name": "Shadi Akiki",
@@ -12,11 +11,14 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "phpunit/phpunit": "~4.0"
+        "phpunit/phpunit": "^5.5"
     },
     "autoload": {
         "classmap": [
             "src/"
         ]
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "^4.0"
     }
 }
