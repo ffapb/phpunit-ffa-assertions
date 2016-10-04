@@ -6,6 +6,8 @@ PHPUnit assertions I use in FFA:
 
  * `assertQueriesValid()`
 
+Published on [packagist](https://packagist.org/packages/shadiakiki1986/phpunit-ffa-assertions)
+
 ## Requirements
 
 The PHPUnit DOM assertions require PHP 5.3.3 or later.
