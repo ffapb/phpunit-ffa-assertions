@@ -1,0 +1,27 @@
+{
+    "name": "shadiakiki1986/phpunit-ffa-assertions",
+    "description": "ffa assertions for PHPUnit",
+    "keywords": ["assertions","phpunit","tests"],
+    "homepage": "http://github.com/shadiakiki1986/phpunit-ffa-assertions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shadi Akiki",
+            "email": "shadiakiki1986@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
