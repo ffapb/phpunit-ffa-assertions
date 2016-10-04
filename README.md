@@ -1,5 +1,7 @@
 # PHPUnit FFA Assertions
 
+Shamelessly copied from [phpunit/phpunit-dom-assertions](https://github.com/phpunit/phpunit-dom-assertions/)
+
 PHPUnit assertions I use in FFA:
 
  * `assertQueriesValid()`
