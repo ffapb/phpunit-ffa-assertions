@@ -5,6 +5,7 @@ Shamelessly copied from [phpunit/phpunit-dom-assertions](https://github.com/phpu
 PHPUnit assertions I use in FFA:
 
  * `assertQueriesValid()`
+ * `assertFileEqualsWrap()` (the original `assertFileEquals` hangs for large files)
 
 Published on [packagist](https://packagist.org/packages/shadiakiki1986/phpunit-ffa-assertions)
 
@@ -31,6 +32,12 @@ class FfaTest extends PHPUnit_Framework_FfaTestCase
         $this->assertQueriesValid('select a from b');
         $this->assertQueriesValid('select a from b','prefix message if fail');
     }
+
+    public function testFileEqualsWrap()
+    {
+        $this->assertFileEqualsWrap('path/to/file','some content');
+    }
+
 }
 ~~~
 
