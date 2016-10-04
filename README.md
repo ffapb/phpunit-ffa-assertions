@@ -13,16 +13,7 @@ The PHPUnit DOM assertions require PHP 5.3.3 or later.
 ## Installation
 
 The recommended way to install the PHPUnit DOM assertions is
-[through composer](http://getcomposer.org). Just create a `composer.json` file
-and run the `php composer.phar install` command to install it:
-
-~~~json
-{
-    "require-dev": {
-        "shadiakiki1986/phpunit-ffa-assertions": "1.0.*@dev"
-    }
-}
-~~~
+[through composer](http://getcomposer.org) using `composer require shadiakiki1986/phpunit-ffa-assertions`
 
 ## Usage
 
