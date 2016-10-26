@@ -13,6 +13,10 @@ abstract class PHPUnit_Framework_FfaTestCase extends PHPUnit_Framework_TestCase
         self::assertLessThan(strlen($query),10,$prefix.": ".$k);
         self::assertNotRegExp('/&lt;/',$query,$prefix.": ".$k);
         self::assertNotRegExp('/&#039;/',$query,$prefix.": ".$k);
+
+        // assert no empty strings due to variables not passed to twig
+        // This is not really a case of an invalid query as it could be intentional, but ATM I do not have an intended case for this, so keeping it as an assertion
+        self::assertNotRegExp("/''/",$query,$prefix.": ".$k);
       }
     }
 
