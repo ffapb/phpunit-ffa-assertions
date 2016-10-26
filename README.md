@@ -9,6 +9,8 @@ PHPUnit assertions I use in FFA:
 
 Published on [packagist](https://packagist.org/packages/shadiakiki1986/phpunit-ffa-assertions)
 
+[![Build Status](https://travis-ci.org/shadiakiki1986/phpunit-ffa-assertions.svg?branch=master)](https://travis-ci.org/shadiakiki1986/phpunit-ffa-assertions)
+
 ## Requirements
 
 The PHPUnit DOM assertions require PHP 5.3.3 or later.
