@@ -13,11 +13,11 @@ Published on [packagist](https://packagist.org/packages/shadiakiki1986/phpunit-f
 
 ## Requirements
 
-The PHPUnit DOM assertions require PHP 5.3.3 or later.
+The PHPUnit FFA assertions require PHP 5.3.3 or later.
 
 ## Installation
 
-The recommended way to install the PHPUnit DOM assertions is
+The recommended way to install the PHPUnit FFA assertions is
 [through composer](http://getcomposer.org) using `composer require --dev shadiakiki1986/phpunit-ffa-assertions`
 
 (Note the `--dev` is for adding the package to the `require-dev` part in the `composer.json` file)
