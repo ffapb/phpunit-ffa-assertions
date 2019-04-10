@@ -1,6 +1,8 @@
 <?php
 
-abstract class PHPUnit_Framework_FfaTestCase extends PHPUnit_Framework_TestCase
+namespace FfaPhpUnit;
+
+abstract class FfaTestCase extends \PHPUnit\Framework\TestCase
 {
     /**
      * A sql query string generated using Twig does not contain escaped html

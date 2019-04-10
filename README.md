@@ -11,9 +11,6 @@ Published on [packagist](https://packagist.org/packages/shadiakiki1986/phpunit-f
 
 [![Build Status](https://travis-ci.org/shadiakiki1986/phpunit-ffa-assertions.svg?branch=master)](https://travis-ci.org/shadiakiki1986/phpunit-ffa-assertions)
 
-## Requirements
-
-The PHPUnit FFA assertions require PHP 5.3.3 or later.
 
 ## Installation
 
@@ -24,10 +21,10 @@ The recommended way to install the PHPUnit FFA assertions is
 
 ## Usage
 
-Extend `PHPUnit_Framework_FfaTestCase` to use the FFA assertions:
+Extend `\FfaPhp\FfaTestCase` to use the FFA assertions:
 
 ~~~php
-class FfaTest extends PHPUnit_Framework_FfaTestCase
+class FfaTest1 extends \FfaPhp\FfaTestCase
 {
     public function testQueriesValid()
     {
